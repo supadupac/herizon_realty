@@ -68,7 +68,7 @@ chris@christophertoulee.
 .find-a-home-header {
     /*border: 1px solid red;*/
     position: absolute;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 250px;
     font-size: 2.6em;
     color: #fff;
@@ -77,7 +77,7 @@ chris@christophertoulee.
 
 .quick-search-box {
     /*border: 1px solid purple;*/
-    padding-top: 120px;
+    padding-top: 170px;
     padding-left: 250px;
     width: 80%;
     line-height: 1.4;
