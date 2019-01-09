@@ -61,15 +61,15 @@ chris@christophertoulee.
  }
 
 .background-darken {
-    background-color: rgb(0, 0, 0, .2);
+    background-color: rgb(0, 0, 0, .15);
     height: 100%;
 }
 
 .find-a-home-header {
     /*border: 1px solid red;*/
     position: absolute;
-    padding-top: 160px;
-    padding-left: 160px;
+    padding-top: 190px;
+    padding-left: 200px;
     font-size: 2.6em;
     color: #fff;
     text-shadow: 1px 1px 2px #000;
@@ -79,7 +79,7 @@ chris@christophertoulee.
     /*border: 1px solid purple;*/
     padding-top: 240px;
     padding-left: 200px;
-    width: 90%;
+    width: 80%;
 }
 
 .quick-search-box .ihf-eureka {
