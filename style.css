@@ -65,6 +65,7 @@ chris@christophertoulee.
 }
 
 .quick-search-box {
+    border: 1px solid purple;
     padding-top: 360px;
     padding-left: 200px;
     width: 90%;
