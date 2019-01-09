@@ -42,7 +42,7 @@
 
     <div class="container-fluid light-bg">
       <div class="container">
-        <div class="row agents"> 
+        <div class="row agents">
           <div class="col-xl-5">
             <img src="http://herizon.christophertoulee.com/wp-content/uploads/herizon_agents.jpg" class="img-fluid">
           </div>
