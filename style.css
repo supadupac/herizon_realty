@@ -61,12 +61,18 @@ chris@christophertoulee.
  }
 
 .find-a-home-header {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    position: absolute;
+    padding-top: 160px;
+    padding-left: 160px;
+    font-size: 3.6em;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .quick-search-box {
-    border: 1px solid purple;
-    padding-top: 360px;
+    /*border: 1px solid purple;*/
+    padding-top: 240px;
     padding-left: 200px;
     width: 90%;
 }
