@@ -10,6 +10,7 @@
     <?php //} ?>
 
 <div class="hero_background">
+    <?php echo do_shortcode("[optima_express_quick_search style=\'twoline\' showPropertyType=\'true\']"); ?>
 </div>
     <div class="container-fluid welcome">
       <h1>Experience how great it is to sell or buy a home with us</h1>
