@@ -60,6 +60,10 @@ chris@christophertoulee.
    width: 100%;
  }
 
+.find-a-home-header {
+    border: 1px solid red;
+}
+
 .quick-search-box {
     padding-top: 360px;
     padding-left: 200px;
