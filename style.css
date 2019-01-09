@@ -66,14 +66,18 @@ chris@christophertoulee.
     width: 90%;
 }
 
-.ihf-eureka {
+.quick-search-box .ihf-eureka {
     font-family: Lato, Roboto, sans-serif !important;
     font-size: 25px !important;
     color: #fff !important;
     text-shadow: 1px 1px 2px #000;
 }
 
-.ihf-select-input {
+.quick-search-box .ihf-select-input {
+    text-shadow: 0px 0px 0px #fff !important;
+}
+
+.quick-search-box .ihf-select-options {
     text-shadow: 0px 0px 0px #fff !important;
 }
 
