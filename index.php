@@ -10,11 +10,10 @@
     <?php //} ?>
 
 <div class="hero_background">
-
+    <div class="quick-search-box">
+        <?php echo do_shortcode("[optima_express_quick_search style=\'twoline\' showPropertyType=\'true\']"); ?>
+    </div>
 </div>
-
-<?php echo do_shortcode("[optima_express_quick_search style=\'twoline\' showPropertyType=\'true\']"); ?>
-
 
     <div class="container-fluid welcome">
       <h1>Experience how great it is to sell or buy a home with us</h1>
