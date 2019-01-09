@@ -60,12 +60,17 @@ chris@christophertoulee.
    width: 100%;
  }
 
+.background-darken {
+    background-color: rgb(0, 0, 0, .2);
+    height: 100%;
+}
+
 .find-a-home-header {
     /*border: 1px solid red;*/
     position: absolute;
     padding-top: 160px;
     padding-left: 160px;
-    font-size: 3.6em;
+    font-size: 2.6em;
     color: #fff;
     text-shadow: 1px 1px 2px #000;
 }
