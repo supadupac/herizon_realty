@@ -81,6 +81,10 @@ chris@christophertoulee.
     text-shadow: 0px 0px 0px #fff !important;
 }
 
+..ihf-eureka.ihf-blue .ihf-btn {
+    background-color: red !important;
+}
+
  /* Navigation */
  #nav_background {
    position: relative;
