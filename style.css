@@ -1051,7 +1051,14 @@ chris@christophertoulee.
    color: white;
  }
 
- /* PAGE CSS */
+.bottom-fix {
+    background-color: #272727;
+    width: 100%;
+    position: absolute;
+    /*margin-bottom: 2361px;*/
+}
+
+/* PAGE CSS */
  .page_title {
    font-family: "Open Sans";
    color: #2B3187;
