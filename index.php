@@ -10,9 +10,11 @@
     <?php //} ?>
 
 <div class="hero_background">
-    <div class="quick-search-box">
-        <?php echo do_shortcode("[optima_express_quick_search style='twoline' showPropertyType='true']"); ?>
-    </div>
+
+</div>
+
+<div class="quick-search-box">
+    <?php echo do_shortcode("[optima_express_quick_search style='twoline' showPropertyType='true']"); ?>
 </div>
 
     <div class="container-fluid welcome">
