@@ -67,9 +67,9 @@ chris@christophertoulee.
 }
 
 .ihf-eureka {
-    font-family: Lato, Roboto, sans-serif;
-    font-size: 25px;
-    color: #fff;
+    font-family: Lato, Roboto, sans-serif !important;
+    font-size: 25px !important;
+    color: #fff !important;
     text-shadow: 1px 1px 2px #000;
 }
 
