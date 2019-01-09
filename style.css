@@ -54,7 +54,7 @@ chris@christophertoulee.
    background-image: url("http://herizon.christophertoulee.com/wp-content/uploads/hero_img.jpg");
    background-repeat: no-repeat;
    height: 550px;
-   background-size: contain;
+   background-size: 100%;
    position: relative;
    z-index: -1;
    width: 100%;
