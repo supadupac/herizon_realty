@@ -1,5 +1,5 @@
 /*
-Theme Name: Herizon Realty Theme
+Theme Name: Herizon Realty Theme [Main]
 Author: Christopher Lee
 Version: 0.0.1
 */
@@ -9,11 +9,6 @@ This css belongs to Herizon Realty.
 Owned and developed by Herizon Realty and Chris Lee
 chris@christophertoulee.
  */
-
-
- .testing {
-   border: 1px solid red;
- }
 
  /* Fonts */
 
@@ -56,7 +51,7 @@ chris@christophertoulee.
  /* Body */
 
  .hero_background {
-   background-image: url("images/hero_img.jpg");
+   background-image: url("http://herizon.christophertoulee.com/wp-content/uploads/hero_img.jpg");
    background-repeat: no-repeat;
    height: 550px;
    background-size: cover;
