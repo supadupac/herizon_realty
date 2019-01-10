@@ -234,6 +234,10 @@ chris@christophertoulee.
    color: red !important;
  }
 
+ .container a:hover {
+     color: white !important;
+ }
+
  .i-logo {
    font-family: 'Pepita';
    color: red;
