@@ -59,7 +59,7 @@ chris@christophertoulee.
    width: 100%;
  }
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 990px) {
     .find-a-home-header {
         position: absolute;
         padding-top: 70px;
@@ -102,7 +102,7 @@ chris@christophertoulee.
     }
 }
 
-@media only screen and (min-width: 876px) {
+@media only screen and (min-width: 991px) {
     .background-darken {
         position: absolute;
         margin-top: 280px;
