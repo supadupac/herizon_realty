@@ -73,29 +73,40 @@
           <div class="col-xl-6 text-center contact-us-form">
             <h1>Get in touch</h1>
             <p>Have any questions or just want to get in touch with us?</p>
-            <form action="">
+
+            <div class="messages"></div>
+
+            <form id="contact-form" method="post" action="email_handler.php" role="form">
               <div class="form-group">
                 <div class="form-row">
                   <div class="col">
-                    <input type="firstName" class="form-control" id="firstName" aria-describedby="firstName" placeholder="First Name">
+                    <input type="firstName" class="form-control" id="firstName" name="firstName" aria-describedby="firstName" placeholder="First Name" required="required" data-error="First name is required">
+                      <div class="help-block with-errors"></div>
                   </div>
                   <div class="col">
-                    <input type="lastName" class="form-control" id="lastName" aria-describedby="lastName" placeholder="Last Name">
-                  </div>
-                </div><br>
-                <div class="form-row">
-                  <div class="col">
-                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailInput" placeholder="Enter email">
+                    <input type="lastName" class="form-control" id="lastName" name="lastName" aria-describedby="lastName" placeholder="Last Name" required="required" data-error="Last name is required">
+                      <div class="help-block with-errors"></div>
                   </div>
                 </div><br>
                 <div class="form-row">
                   <div class="col">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+                    <input type="email" class="form-control" id="emailInput" name="emailInput" aria-describedby="emailInput" placeholder="Enter email" required="required" data-error="Email is required">
+                      <div class="help-block with-errors"></div>
+                  </div>
+                </div><br>
+                <div class="form-row">
+                  <div class="col">
+                    <textarea class="form-control" id="messageArea" rows="4" name="message" placeholder="Message" required="required" data-error="A message is required"></textarea>
+                      <div class="help-block with-errors"></div>
                   </div>
                 </div>
               </div>
-              <button type="submit" class="btn btn-secondary">Send</button>
+              <button type="submit" class="btn btn-secondary" value="send">Send</button>
             </form>
+
+
+
+
           </div>
           <div class="col-xl-3">
           </div>
