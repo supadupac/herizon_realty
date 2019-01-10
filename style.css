@@ -62,9 +62,9 @@ chris@christophertoulee.
 @media only screen and (min-width: 1131px) {
     .background-darken {
         position: absolute;
-        margin-top: 0px;
+        margin-top: 280px;
         background-color: rgb(43, 49, 135, .5);
-        height: 100%;
+        height: 170px;
         width: 100%;
     }
 
@@ -164,6 +164,14 @@ chris@christophertoulee.
 }
 
 @media only screen and (max-width: 817px) {
+    .background-darken {
+        position: absolute;
+        margin-top: 0px;
+        background-color: rgb(43, 49, 135, .5);
+        height: 100%;
+        width: 100%;
+    }
+
     .find-a-home-header {
         position: absolute;
         padding-top: 85px;
