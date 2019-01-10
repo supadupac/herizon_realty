@@ -40,7 +40,7 @@ $(function () {
 
     // if the validator does not prevent form submit
     if (!e.isDefaultPrevented()) {
-      var url = "email_handler.php";
+      var url = "http://herizon.christophertoulee.com/email_handler.php/";
 
       // POST values in the background the the script URL
       $.ajax({
