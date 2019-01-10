@@ -106,7 +106,7 @@ chris@christophertoulee.
     }
 }
 
-@media only screen (min-width: 1130px), (max-width: 818px){
+@media only screen (min-width: 818px), (max-width: 1130px){
 
     .background-darken {
         position: absolute;
