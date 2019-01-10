@@ -102,7 +102,7 @@
                   </div>
                 </div>
               </div>
-              <button type="submit" class="btn btn-secondary" value="Send message">Send</button>
+              <input type="submit" class="btn btn-secondary" value="Send">
             </form>
 
 
