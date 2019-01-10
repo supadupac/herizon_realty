@@ -42,7 +42,7 @@ $(function () {
 
     // if the validator does not prevent form submit
     if (!e.isDefaultPrevented()) {
-      var url = "contact/email_handler.php";
+      var url = "http://herizon.christophertoulee.com/contact/email_handler.php";
 
       // POST values in the background the the script URL
       $.ajax({
