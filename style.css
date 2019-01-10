@@ -54,61 +54,103 @@ chris@christophertoulee.
    background-image: url("http://herizon.christophertoulee.com/wp-content/uploads/hero_img.jpg");
    background-repeat: no-repeat;
    height: 450px;
-   background-size: 100%;
+   background-size: cover;
    position: relative;
-   /*z-index: -1;*/
    width: 100%;
  }
 
-.background-darken {
-    position: absolute;
-    margin-top: 280px;
-    background-color: rgb(43,49,135, .25);
-    height: 170px;
-    width: 100%;
+@media only screen and (max-width: 991px) {
+    .find-a-home-header {
+        position: absolute;
+        padding-top: 70px;
+        padding-left: 5%;
+        font-size: 1.6em;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+    }
+
+    .quick-search-box {
+        padding-top: 115px;
+        padding-left: 20px;
+        width: 90%;
+        line-height: 1.4;
+    }
+
+    .quick-search-box .ihf-eureka {
+        font-family: Lato, Roboto, sans-serif !important;
+        font-size: 25px !important;
+        color: #fff !important;
+        text-shadow: 1px 1px 2px #000;
+    }
+
+    .quick-search-box .ihf-select-input {
+        text-shadow: 0px 0px 0px #fff !important;
+    }
+
+    .quick-search-box .ihf-select-options {
+        text-shadow: 0px 0px 0px #fff !important;
+    }
+
+    .quick-search-box .ihf-eureka.ihf-blue .ihf-btn {
+        border: 0px;
+        background-color: #007bff !important;
+    }
+
+    .quick-search-box .ihf-eureka.ihf-blue .ihf-btn:hover {
+        border: 0px;
+        background-color: #005FD3 !important;
+    }
 }
 
-.find-a-home-header {
-    /*border: 1px solid red;*/
-    position: absolute;
-    padding-top: 285px;
-    padding-left: 160px;
-    font-size: 2.6em;
-    color: #fff;
-    text-shadow: 1px 1px 2px #000;
-}
+@media only screen and (min-width: 991px) {
+    .background-darken {
+        position: absolute;
+        margin-top: 280px;
+        background-color: rgb(43, 49, 135, .5);
+        height: 170px;
+        width: 100%;
+    }
 
-.quick-search-box {
-    /*border: 1px solid purple;*/
-    padding-top: 346px;
-    padding-left: 160px;
-    width: 90%;
-    line-height: 1.4;
-}
+    .find-a-home-header {
+        position: absolute;
+        padding-top: 285px;
+        padding-left: 160px;
+        font-size: 2.6em;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+    }
 
-.quick-search-box .ihf-eureka {
-    font-family: Lato, Roboto, sans-serif !important;
-    font-size: 25px !important;
-    color: #fff !important;
-    text-shadow: 1px 1px 2px #000;
-}
+    .quick-search-box {
+        padding-top: 346px;
+        padding-left: 160px;
+        width: 90%;
+        line-height: 1.4;
+    }
 
-.quick-search-box .ihf-select-input {
-    text-shadow: 0px 0px 0px #fff !important;
-}
+    .quick-search-box .ihf-eureka {
+        font-family: Lato, Roboto, sans-serif !important;
+        font-size: 25px !important;
+        color: #fff !important;
+        text-shadow: 1px 1px 2px #000;
+    }
 
-.quick-search-box .ihf-select-options {
-    text-shadow: 0px 0px 0px #fff !important;
-}
+    .quick-search-box .ihf-select-input {
+        text-shadow: 0px 0px 0px #fff !important;
+    }
 
-.quick-search-box .ihf-eureka.ihf-blue .ihf-btn {
-    border: 0px;
-    background-color: #007bff !important;
-}
+    .quick-search-box .ihf-select-options {
+        text-shadow: 0px 0px 0px #fff !important;
+    }
 
-.quick-search-box .ihf-eureka.ihf-blue .ihf-btn:hover {
-    border: 0px;
-    background-color: #005FD3 !important;
+    .quick-search-box .ihf-eureka.ihf-blue .ihf-btn {
+        border: 0px;
+        background-color: #007bff !important;
+    }
+
+    .quick-search-box .ihf-eureka.ihf-blue .ihf-btn:hover {
+        border: 0px;
+        background-color: #005FD3 !important;
+    }
 }
 
  /* Navigation */
