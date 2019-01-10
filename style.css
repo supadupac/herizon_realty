@@ -62,7 +62,7 @@ chris@christophertoulee.
 @media only screen and (min-width: 1131px) {
     .background-darken {
         position: absolute;
-        margin-top: 280px;
+        margin-top: 0px;
         background-color: rgb(43, 49, 135, .5);
         height: 100%;
         width: 100%;
