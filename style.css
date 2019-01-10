@@ -179,17 +179,18 @@ chris@christophertoulee.
         font-size: 1.6em;
         color: #fff;
         text-shadow: 1px 1px 2px #000;
+        display: none;
     }
 
     .quick-search-box {
-        padding-top: 135px;
+        padding-top: 72px;
         padding-left: 26px;
         width: 95%;
         line-height: 1;
     }
 
     .quick-search-box .ihf-eureka label {
-        font-size: 0px;
+        font-size: 0px !important;
     }
 
     .quick-search-box .ihf-eureka {
