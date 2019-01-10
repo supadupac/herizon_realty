@@ -74,9 +74,10 @@
             <h1>Get in touch</h1>
             <p>Have any questions or just want to get in touch with us?</p>
 
-            <div class="messages"></div>
-
             <form id="contact-form" method="post" action="email_handler.php" role="form">
+
+                <div class="messages"></div>
+
               <div class="form-group">
                 <div class="form-row">
                   <div class="col">
@@ -101,7 +102,7 @@
                   </div>
                 </div>
               </div>
-              <button type="submit" class="btn btn-secondary" value="send">Send</button>
+              <button type="submit" class="btn btn-secondary" value="Send message">Send</button>
             </form>
 
 
