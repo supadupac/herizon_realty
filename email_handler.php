@@ -27,8 +27,8 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
  */
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
-error_reporting(E_ALL & ~E_NOTICE);
-//error_reporting(0);
+//error_reporting(E_ALL & ~E_NOTICE);
+error_reporting(0);
 
 try
 {
@@ -63,14 +63,14 @@ catch (\Exception $e)
 
 
 // if requested by AJAX request return JSON response
-if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-    $encoded = json_encode($responseArray);
-
-    header('Content-Type: application/json');
-
-    echo $encoded;
-}
-// else just display the message
-else {
-    echo $responseArray['message'];
-}
+//if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+//    $encoded = json_encode($responseArray);
+//
+//    header('Content-Type: application/json');
+//
+//    echo $encoded;
+//}
+//// else just display the message
+//else {
+//    echo $responseArray['message'];
+//}

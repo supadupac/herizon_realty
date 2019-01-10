@@ -42,4 +42,7 @@ $(function () {
             return false;
         }
     })
+
 });
+
+console.log("what's up");
