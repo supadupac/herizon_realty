@@ -59,30 +59,34 @@ chris@christophertoulee.
    width: 100%;
  }
 
-@media only screen and (min-width: 817px) {
+@media only screen and (min-width: 1131px) {
+    .background-darken {
+        position: absolute;
+        margin-top: 280px;
+        background-color: rgb(43, 49, 135, .5);
+        height: 170px;
+        width: 100%;
+    }
+
     .find-a-home-header {
         position: absolute;
-        padding-top: 85px;
-        padding-left: 5%;
-        font-size: 1.6em;
+        padding-top: 285px;
+        padding-left: 160px;
+        font-size: 2.6em;
         color: #fff;
         text-shadow: 1px 1px 2px #000;
     }
 
     .quick-search-box {
-        padding-top: 135px;
-        padding-left: 26px;
-        width: 95%;
-        line-height: 1;
-    }
-
-    .quick-search-box .ihf-eureka label {
-        font-size: 0px;
+        padding-top: 346px;
+        padding-left: 160px;
+        width: 90%;
+        line-height: 1.4;
     }
 
     .quick-search-box .ihf-eureka {
         font-family: Lato, Roboto, sans-serif !important;
-        /*font-size: 25px !important;*/
+        font-size: 25px !important;
         color: #fff !important;
         text-shadow: 1px 1px 2px #000;
     }
@@ -106,8 +110,9 @@ chris@christophertoulee.
     }
 }
 
-@media only screen (min-width: 818px), (max-width: 1130px){
 
+/*@media only screen and (min-width: 818px), (max-width: 1130px){*/
+@media only screen and (max-width: 1130px) {
     .background-darken {
         position: absolute;
         margin-top: 307px;
@@ -158,34 +163,30 @@ chris@christophertoulee.
     }
 }
 
-@media only screen and (min-width: 1131px) {
-    .background-darken {
-        position: absolute;
-        margin-top: 280px;
-        background-color: rgb(43, 49, 135, .5);
-        height: 170px;
-        width: 100%;
-    }
-
+@media only screen and (max-width: 817px) {
     .find-a-home-header {
         position: absolute;
-        padding-top: 285px;
-        padding-left: 160px;
-        font-size: 2.6em;
+        padding-top: 85px;
+        padding-left: 5%;
+        font-size: 1.6em;
         color: #fff;
         text-shadow: 1px 1px 2px #000;
     }
 
     .quick-search-box {
-        padding-top: 346px;
-        padding-left: 160px;
-        width: 90%;
-        line-height: 1.4;
+        padding-top: 135px;
+        padding-left: 26px;
+        width: 95%;
+        line-height: 1;
+    }
+
+    .quick-search-box .ihf-eureka label {
+        font-size: 0px;
     }
 
     .quick-search-box .ihf-eureka {
         font-family: Lato, Roboto, sans-serif !important;
-        font-size: 25px !important;
+        /*font-size: 25px !important;*/
         color: #fff !important;
         text-shadow: 1px 1px 2px #000;
     }
