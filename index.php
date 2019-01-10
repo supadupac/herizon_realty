@@ -81,24 +81,25 @@
               <div class="form-group">
                 <div class="form-row">
                   <div class="col">
-                    <input type="firstName" class="form-control" id="firstName" name="firstName" aria-describedby="firstName" placeholder="First Name" required="required">
+                    <input type="firstName" class="form-control" id="firstName" name="firstName" aria-describedby="firstName" placeholder="First Name" required="required" data-error="First name is required">
                   </div>
                   <div class="col">
-                    <input type="lastName" class="form-control" id="lastName" name="lastName" aria-describedby="lastName" placeholder="Last Name" required="required">
-                  </div>
-                </div><br>
-                <div class="form-row">
-                  <div class="col">
-                    <input type="email" class="form-control" id="emailInput" name="emailInput" aria-describedby="emailInput" placeholder="Enter email" required="required">
+                    <input type="lastName" class="form-control" id="lastName" name="lastName" aria-describedby="lastName" placeholder="Last Name" required="required" data-error="Last name is required">
                   </div>
                 </div><br>
                 <div class="form-row">
                   <div class="col">
-                    <textarea class="form-control" id="messageArea" rows="4" name="message" placeholder="Message" required="required"></textarea>
+                    <input type="email" class="form-control" id="emailInput" name="emailInput" aria-describedby="emailInput" placeholder="Enter email" required="required" data-error="Email is required">
+                  </div>
+                </div><br>
+                <div class="form-row">
+                  <div class="col">
+                    <textarea class="form-control" id="messageArea" rows="4" name="message" placeholder="Message" required="required" data-error="A message is required"></textarea>
                   </div>
                 </div>
+                  <div class="help-block with-errors"></div>
               </div>
-              <input type="submit" class="btn btn-secondary" value="Send">
+                    <input type="submit" class="btn btn-secondary" value="Send">
             </form>
 
 
