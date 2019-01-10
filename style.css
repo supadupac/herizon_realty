@@ -59,7 +59,7 @@ chris@christophertoulee.
    width: 100%;
  }
 
-@media only screen and (max-width: 817px) {
+@media only screen and (min-width: 817px) {
     .find-a-home-header {
         position: absolute;
         padding-top: 85px;
