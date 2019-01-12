@@ -20,7 +20,7 @@
 
     <div class="container-fluid">
         <div class="sticky-post">
-            <?php is_sticky($post_ID); ?>
+
         </div>
     </div>
 
@@ -97,7 +97,9 @@
                   <div class="col">
                     <input type="email" class="form-control" id="emailInput" name="emailInput" aria-describedby="emailInput" placeholder="Enter email" required="required" data-error="Email is required">
                   </div>
-                </div><br>
+                </div>
+                  <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
+                  <br>
                 <div class="form-row">
                   <div class="col">
                     <textarea class="form-control" id="messageArea" rows="4" name="message" placeholder="Message" required="required" data-error="A message is required"></textarea>

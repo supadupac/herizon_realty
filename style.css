@@ -1079,6 +1079,10 @@ chris@christophertoulee.
    float: right !important;
  }
 
+.antispam {
+    display: none;
+}
+
    /* Footer */
 
  footer {
