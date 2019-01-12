@@ -18,6 +18,12 @@
         </div>
 </div>
 
+    <div class="container-fluid">
+        <div class="sticky-post">
+            <?php is_sticky($post_ID); ?>
+        </div>
+    </div>
+
     <div class="container-fluid welcome">
       <h1>Experience how great it is to sell or buy a home with us</h1>
     </div>
