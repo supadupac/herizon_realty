@@ -1,48 +1,49 @@
 <?php
 
-get_header();
-?>
+get_header(); ?>
 
-    <section id="primary" class="content-area">
-        <main id="main" class="site-main">
+    <div class="container">
+    <!--    <div class="right">-->
+    <h1 class="blog__welcome right"><?php the_archive_title(); ?></h1>
+    <h3 class="blog__subtitle right"><?php the_archive_description(); ?></h3>
 
-            <?php if ( have_posts() ) : ?>
 
-                <header class="page-header">
+        <div class="blog__posts">
+            <?php
+            while(have_posts()) {
+                the_post(); ?>
+                <div class="post-item">
+                    <h3 class="post__title"><strong><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></strong></h3>
+
+                    <div class="post__meta">
+                        <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time('n.j.y'); ?> in <?php echo get_the_category_list(', '); ?></p>
+                    </div>
+
+                    <div class="">
+                        <?php the_excerpt(); ?>
+                        <div class="blog__continue">
+                            <p><a class="btn btn-primary" href="<?php the_permalink(); ?>">Continue reading &raquo;</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr />
+
+            <?php } ?>
+
+            <div class="right">
+                <div class="paginate_links">
                     <?php
-                    the_archive_title( '<h1 class="page-title">', '</h1>' );
-                    // Remove for now @TODO
-                    // the_archive_description( '<div class="page-description">', '</div>' );
+                    echo paginate_links();
                     ?>
-                </header><!-- .page-header -->
+                </div>
+            </div>
 
-                <?php
-                // Start the Loop.
-                while ( have_posts() ) :
-                    the_post();
 
-                    /*
-                     * Include the Post-Format-specific template for the content.
-                     * If you want to override this in a child theme, then include a file
-                     * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-                     */
-//                    get_template_part( 'template-parts/content/content', 'excerpt' );
+        </div>
+    </div>
 
-                    // End the loop.
-                endwhile;
+<?php get_footer();
 
-                // Previous/next page navigation.
-//                twentynineteen_the_posts_navigation();
-
-            // If no content, include the "No posts found" template.
-            else :
-//                get_template_part( 'template-parts/content/content', 'none' );
-                echo "No posts found";
-
-            endif;
-            ?>
-        </main><!-- #main -->
-    </section><!-- #primary -->
-
-<?php
-get_footer();
+?>

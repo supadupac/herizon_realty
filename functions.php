@@ -13,21 +13,21 @@
   add_action('wp_enqueue_scripts', 'herizon_files');
 
 
-  function announcements() {
-    register_post_type('announcements', [
-        'public' => true,
-        'labels' => [
-            'name' => 'Announcements',
-            'add_new_item' => 'Add new Announcement',
-            'edit_item' => 'Edit Announcement',
-            'all_items' => 'All Announcements',
-            'singular_name' => 'Announcement'
-        ],
-        'menu_icon' => 'dashicons-controls-volumeon'
-    ]);
-  }
-
-  add_action('init', 'announcements');
+//  function announcements() {
+//    register_post_type('announcements', [
+//        'public' => true,
+//        'labels' => [
+//            'name' => 'Announcements',
+//            'add_new_item' => 'Add new Announcement',
+//            'edit_item' => 'Edit Announcement',
+//            'all_items' => 'All Announcements',
+//            'singular_name' => 'Announcement'
+//        ],
+//        'menu_icon' => 'dashicons-controls-volumeon'
+//    ]);
+//  }
+//
+//  add_action('init', 'announcements');
 
   // call JS files
 
