@@ -12,6 +12,19 @@
 
   add_action('wp_enqueue_scripts', 'herizon_files');
 
+
+  function announcements() {
+    register_post_type('announcements', array(
+        'public' => true,
+        'labels' => array(
+            name => 'Announcements'
+        ),
+        'menu_icon' => 'dashicons-controls-volumeon'
+    ));
+  }
+
+  add_action('init', 'announcements');
+
   // call JS files
 
 ?>

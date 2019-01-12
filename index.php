@@ -2,12 +2,12 @@
 
 <?php
 
-  //while(have_posts()) {
-    //the_post(); ?>
-    <!-- <h2><a href="<?php // the_permalink(); ?>"><?php //the_title(); ?></a></h2> -->
-    <?php // the_content(); ?>
-    <!-- <hr> -->
-    <?php //} ?>
+//  while(have_posts()) {
+//    the_post(); ?>
+<!--     <h2><a href="--><?php // the_permalink(); ?><!--">--><?php //the_title(); ?><!--</a></h2> -->
+<!--    --><?php // the_content(); ?>
+<!--     <hr> -->
+<!--    --><?php //} ?>
 
 <div class="hero_background">
     <div class="background-darken">
@@ -20,7 +20,24 @@
 
     <div class="container-fluid">
         <div class="sticky-post">
+            This is where things belong
+            <?php
+//                 is_sticky();
+//
+//               $sticky_test = is_sticky();
+//
+//               echo $sticky_test;
 
+
+//            $recent_posts = wp_get_recent_posts();
+            foreach( $recent_posts as $recent ){
+                echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
+            }
+            wp_reset_query();
+
+
+
+            ?>
         </div>
     </div>
 
