@@ -997,35 +997,53 @@ chris@christophertoulee.
 
    /* Begining of Body */
 
-   .welcome {
-     font-family: "Open+Sans";
-     color: #2B3187;
-     margin-top: 40px;
-     text-align: center;
-   }
+.welcome {
+ font-family: "Open+Sans";
+ color: #2B3187;
+ margin-top: 40px;
+ text-align: center;
+}
 
-   .welcome h1 {
-     font-family: "Open Sans" !important;
-     font-weight: 550;
-     color: #2B3187;
-     font-size: 32px;
-   }
+.welcome h1 {
+ font-family: "Open Sans" !important;
+ font-weight: 550;
+ color: #2B3187;
+ font-size: 32px;
+}
 
-   .welcome-links {
-     margin-top: 40px;
-   }
+.welcome-links {
+ margin-top: 40px;
+}
 
-   .welcome-links img {
-     border-radius: 10px;
-     padding: 0px;
-   }
+.welcome-links img {
+ border-radius: 10px;
+ padding: 0px;
+}
 
-   .welcome-links h1 {
-     font-weight: 550;
-     font-family: "Open Sans";
-     color: #2B3187;
-     font-size: 32px;
-   }
+.welcome-links h1 {
+ font-weight: 550;
+ font-family: "Open Sans";
+ color: #2B3187;
+ font-size: 32px;
+}
+
+.title_announcement {
+    font-family: "Open Sans" !important;
+    font-weight: 700;
+    color: #2B3187;
+    font-size: 32px;
+}
+
+.sticky-bg {
+    background: #E9E9E9;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.sticky-post {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
  .light-bg {
    background: #E9E9E9;

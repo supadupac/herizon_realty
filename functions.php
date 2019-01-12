@@ -14,13 +14,17 @@
 
 
   function announcements() {
-    register_post_type('announcements', array(
+    register_post_type('announcements', [
         'public' => true,
-        'labels' => array(
-            name => 'Announcements'
-        ),
+        'labels' => [
+            'name' => 'Announcements',
+            'add_new_item' => 'Add new Announcement',
+            'edit_item' => 'Edit Announcement',
+            'all_items' => 'All Announcements',
+            'singular_name' => 'Announcement'
+        ],
         'menu_icon' => 'dashicons-controls-volumeon'
-    ));
+    ]);
   }
 
   add_action('init', 'announcements');

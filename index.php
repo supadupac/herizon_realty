@@ -18,28 +18,31 @@
         </div>
 </div>
 
-    <div class="container-fluid">
-        <div class="sticky-post">
-            This is where things belong
             <?php
-//                 is_sticky();
-//
-//               $sticky_test = is_sticky();
-//
-//               echo $sticky_test;
+                $sticky = get_option( 'sticky_posts' );
+                $herizon_announcements = new WP_query([
+                    'posts_per_page' => 1,
+                    'post__in'  => $sticky,
+                    'ignore_sticky_posts' => 1
+                ]);
+            if ( isset($sticky[0]) ) {
+                $herizon_announcements->the_post(); ?>
 
+<div class="container-fluid">
+    <div class="container sticky-bg">
+        <div class="sticky-post">
 
-//            $recent_posts = wp_get_recent_posts();
-            foreach( $recent_posts as $recent ){
-                echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
-            }
-            wp_reset_query();
+            <h1 class="title_announcement">
+                <?php the_title(); ?>
+            </h1>
 
+            <p><?php the_content(); ?></p>
 
-
-            ?>
         </div>
     </div>
+</div>
+            <?php } ?>
+
 
     <div class="container-fluid welcome">
       <h1>Experience how great it is to sell or buy a home with us</h1>
