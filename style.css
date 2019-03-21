@@ -83,6 +83,10 @@ chris@christophertoulee.
     display: none;
 
 }
+
+#ihf-main-container .fs-11 {
+    display: none;
+}
  /* Body */
 
  .hero_background {
