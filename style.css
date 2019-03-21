@@ -87,6 +87,11 @@ chris@christophertoulee.
 #ihf-main-container .fs-11 {
     display: none;
 }
+
+#ihf-main-container .pagination {
+    display: none !important;
+}
+
  /* Body */
 
  .hero_background {

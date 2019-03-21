@@ -21,7 +21,7 @@
 <div class="container">
     <div class="featured">
         <div class="red">
-            <?php echo do_shortcode("[optima_express_featured header='false' includeMap='false' status='active']"); ?>
+            <?php echo do_shortcode("[optima_express_featured resultsPerPage='3' header='false' includeMap='false' status='active']"); ?>
         </div>
     </div>
 </div>
