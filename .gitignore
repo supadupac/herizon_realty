@@ -36,6 +36,7 @@ wp-content/plugins/hello.php
 # Other Files #
 ###############
 .gitignore
+*.gitignore
 
 # Logs and databases #
 ######################
@@ -59,3 +60,6 @@ Thumbs.db
 /sitemap.xml
 /sitemap.xml.gz
 
+#intelliJ
+.idea
+/.idea
