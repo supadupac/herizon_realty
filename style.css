@@ -52,6 +52,10 @@ chris@christophertoulee.
     /*height: 300px;*/
 }
 
+.featured > #ihf-board-disclaimers {
+    display: none;
+}
+
  /* Body */
 
  .hero_background {
