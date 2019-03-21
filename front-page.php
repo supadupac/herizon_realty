@@ -18,10 +18,10 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="featured">
         <div class="red">
-            <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='2' header='false' includeMap='false' status='active']"); ?>
+            <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='3' header='false' includeMap='false' status='active']"); ?>
         </div>
     </div>
 </div>
