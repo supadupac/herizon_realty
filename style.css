@@ -47,32 +47,40 @@ chris@christophertoulee.
  font-family: 'Times', sans-serif;
  */
 
+
+/* Featured CSS */
 .red {
     border: 1px solid red;
+    padding-top: 20px;
     /*height: 300px;*/
 }
 
-#ihf-board-disclaimers {
-    display: none;
-}
-
-.mt-60.fs-11 {
-    display: none;
-}
-
-.fs-11 {
-    display: none;
-}
-
-.mt-60 {
-    display: none;
-}
-
-.pagination {
-    display: none;
-}
-
 .ihf-listing-search-results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ihf-main-container.ihf-color-scheme-blue .ihf-map-icon {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    #ihf-main-container .ihf-results-links {
+        display: none;
+    }
+}
+
+#ihf-main-container .hidden-xs {
+     display: none !important;
+ }
+
+.ihf-link-back, .ihf-map-icon {
+    display: none;
+}
+
+#ihf-main-container .property-divider {
+    display: none;
 
 }
  /* Body */
