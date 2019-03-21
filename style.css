@@ -997,35 +997,60 @@ chris@christophertoulee.
 
    /* Begining of Body */
 
-   .welcome {
-     font-family: "Open+Sans";
-     color: #2B3187;
-     margin-top: 40px;
-     text-align: center;
-   }
+.welcome {
+ font-family: "Open+Sans";
+ color: #2B3187;
+ margin-top: 40px;
+ text-align: center;
+}
 
-   .welcome h1 {
-     font-family: "Open Sans" !important;
-     font-weight: 550;
-     color: #2B3187;
-     font-size: 32px;
-   }
+.welcome h1 {
+ font-family: "Open Sans" !important;
+ font-weight: 550;
+ color: #2B3187;
+ font-size: 32px;
+}
 
-   .welcome-links {
-     margin-top: 40px;
-   }
+.welcome-links {
+ margin-top: 40px;
+}
 
-   .welcome-links img {
-     border-radius: 10px;
-     padding: 0px;
-   }
+.welcome-links img {
+ border-radius: 10px;
+ padding: 0px;
+}
 
-   .welcome-links h1 {
-     font-weight: 550;
-     font-family: "Open Sans";
-     color: #2B3187;
-     font-size: 32px;
-   }
+.welcome-links h1 {
+ font-weight: 550;
+ font-family: "Open Sans";
+ color: #2B3187;
+ font-size: 32px;
+}
+
+.single_post_title {
+    font-family: "Open Sans";
+    color: #2B3187;
+    font-weight: 550;
+    font-size: 46px;
+}
+
+.title_announcement {
+    font-family: "Open Sans" !important;
+    font-weight: 700;
+    color: #2B3187;
+    font-size: 32px;
+}
+
+.sticky-bg {
+    background: #E9E9E9;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.sticky-post {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
  .light-bg {
    background: #E9E9E9;
@@ -1079,12 +1104,96 @@ chris@christophertoulee.
    float: right !important;
  }
 
+.antispam {
+    display: none;
+}
+
+.pre {
+    font-family: "Open Sans" !important;
+}
+
+   /*Blog*/
+
+.blog__welcome {
+    color: #717171;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 700;
+    /*margin-top: 15px;*/
+    /*margin-left: 50px;*/
+}
+
+.blog__subtitle {
+    color: #717171;
+    font-family: "Open Sans";
+    font-size: 14px;
+    padding-bottom: 20px;
+    /*margin-left: 53px;*/
+}
+
+.blog__posts {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.post__title a:link {
+    /*text-decoration: underline;*/
+    color: #2B3187;
+}
+
+.post__title a:visited {
+    /*text-decoration: underline;*/
+    color: #2B3187;
+}
+
+.post__title a:hover {
+    color: red;
+}
+
+.post__meta {
+    color: #717171;
+    font-family: "Open Sans";
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.single__post__meta {
+    color: #717171;
+    font-family: "Open Sans";
+    font-size: 13px;
+    margin-top: -5px;
+    margin-left: 4px;
+}
+
+.blog__continue a:hover {
+    /*margin-top: 25px;*/
+    color: white !important;
+}
+
+.blog__continue .btn {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.paginate_links {
+    margin-bottom: 20px;
+}
+
+.paginate_links a {
+    /*color: red !important; */
+    size: 18px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
    /* Footer */
 
  footer {
    background: #272727;
    /* height: 300px; */
-   background: #272727;
+   /*background: #272727;*/
    background: linear-gradient(#585858, #272727);
    color: white;
    font-family: "Open Sans";
