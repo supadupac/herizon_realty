@@ -47,6 +47,10 @@ chris@christophertoulee.
  font-family: 'Times', sans-serif;
  */
 
+.red {
+    border: 1px solid red;
+    height: 300px;
+}
 
  /* Body */
 

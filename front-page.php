@@ -18,6 +18,14 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="featured">
+        <div class="red">
+            <?php echo do_shortcode("[optima_express_featured displayType='grid' header='true' includeMap='false' status='active']"); ?>
+        </div>
+    </div>
+</div>
+
 <?php
 $sticky = get_option( 'sticky_posts' );
 $herizon_announcements = new WP_query([
