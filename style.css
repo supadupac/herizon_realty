@@ -63,7 +63,9 @@ chris@christophertoulee.
     display: none;
 }
 
-
+.featured > .row {
+    flex-wrap: nowrap;
+}
 
 
 /*DELETE LIST CSS SETTINGS*/
