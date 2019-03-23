@@ -452,6 +452,10 @@ chris@christophertoulee.
      display: block;
      margin-top: 40px;
    }
+
+   .featured {
+       display: none;
+   }
  }
 
  @media only screen and (max-width: 991px){
