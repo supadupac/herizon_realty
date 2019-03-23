@@ -53,6 +53,7 @@ chris@christophertoulee.
 .featured-msg {
     display: flex;
     justify-content: center;
+    margin-top: 40px
 }
 
 .featured-msg h1 {
@@ -64,7 +65,7 @@ chris@christophertoulee.
 
 .featured-spacing {
     /*border: 1px solid red;*/
-    padding-top: 20px;
+    padding-top: 10px;
     /*height: 300px;*/
 }
 
@@ -1061,7 +1062,7 @@ chris@christophertoulee.
 .welcome {
  font-family: "Open+Sans";
  color: #2B3187;
- margin-top: 40px;
+ margin-top: 20px;
  text-align: center;
 }
 
