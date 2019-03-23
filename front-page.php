@@ -21,14 +21,14 @@
 <div class="container-fluid">
     <div class="featured">
         <div class="container">
-            <div class="featured-msg">
-                <h1>Featured Listings</h1>
+            <div class="row">
+                <div class="featured-msg">
+                    <h1>Featured Listings</h1><br>
+                </div>
+                <div class="featured-spacing">
+                    <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
+                </div>
             </div>
-        </div>
-        <div class="row">
-        <div class="featured-spacing">
-            <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
-        </div>
         </div>
     </div>
 </div>
@@ -62,36 +62,38 @@ if ( isset($sticky[0]) ) {
 <?php } ?>
 
 
-<div class="container-fluid welcome">
-    <h1>Experience how great it is to sell or buy a home with us</h1>
-</div>
-<div class="container welcome-links">
-    <div class="row text-center">
-        <div class="col-lg-4">
-            <img src="http://herizon.christophertoulee.com//wp-content/uploads/2018/09/herizon_sell.jpg" class="img-fluid">
-            <br>
-            <br>
-            <h1>Buy</h1>
-            <p>We love to help buyers find a home that they can be happy in. We always do our best to serve all of your real estate needs.</p>
-        </div>
-        <div class="col-lg-4">
-            <img src="http://herizon.christophertoulee.com//wp-content/uploads/2018/09/key_buyers.jpg" class="img-fluid">
-            <br>
-            <br>
-            <h1>Sell</h1>
-            <p>We enjoy selling homes and helping sellers prepare, market, and sell their home.</p>
-        </div>
-        <div class="col-lg-4">
-            <img src="http://herizon.christophertoulee.com//wp-content/uploads/2018/09/home001.jpg" class="img-fluid">
-            <br>
-            <br>
-            <h1>Properties</h1>
-            <p>Come take a look at all of the properties that we can help you purchase.</p>
-        </div>
-    </div>
-</div>
+
 
 <div class="container-fluid light-bg">
+    <div class="container-fluid welcome">
+        <h1>Experience how great it is to sell or buy a home with us</h1>
+    </div>
+    <div class="container welcome-links">
+        <div class="row text-center">
+            <div class="col-lg-4">
+                <img src="http://herizon.christophertoulee.com//wp-content/uploads/2018/09/herizon_sell.jpg" class="img-fluid">
+                <br>
+                <br>
+                <h1>Buy</h1>
+                <p>We love to help buyers find a home that they can be happy in. We always do our best to serve all of your real estate needs.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="http://herizon.christophertoulee.com//wp-content/uploads/2018/09/key_buyers.jpg" class="img-fluid">
+                <br>
+                <br>
+                <h1>Sell</h1>
+                <p>We enjoy selling homes and helping sellers prepare, market, and sell their home.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="http://herizon.christophertoulee.com//wp-content/uploads/2018/09/home001.jpg" class="img-fluid">
+                <br>
+                <br>
+                <h1>Properties</h1>
+                <p>Come take a look at all of the properties that we can help you purchase.</p>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row agents">
             <div class="col-xl-5">
