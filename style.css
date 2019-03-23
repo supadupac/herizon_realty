@@ -80,8 +80,16 @@ chris@christophertoulee.
 
 #ihf-main-container .ihf-grid-result-container {
     height: 350px;
+    overflow: hidden
 }
 
+.ihf-grid-results-logo {
+    display: none;
+}
+
+.ihf-grid-result-attribution {
+    display: none;
+}
 
 /*DELETE LIST CSS SETTINGS*/
 /*.ihf-listing-search-results {*/
