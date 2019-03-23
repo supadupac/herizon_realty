@@ -18,7 +18,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="featured">
         <div class="row">
         <div class="featured-spacing">
