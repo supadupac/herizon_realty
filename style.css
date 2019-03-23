@@ -50,6 +50,11 @@ chris@christophertoulee.
 
 /* Featured CSS */
 
+.featured-msg {
+    display: flex;
+    justify-content: center;
+}
+
 .featured-msg h1 {
     font-family: "Open Sans" !important;
     font-weight: 550;

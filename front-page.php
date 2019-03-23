@@ -20,8 +20,10 @@
 
 <div class="container-fluid">
     <div class="featured">
-        <div class="featured-msg">
-            <h1>Featured Listings</h1>
+        <div class="container">
+            <div class="featured-msg">
+                <h1>Featured Listings</h1>
+            </div>
         </div>
         <div class="row">
         <div class="featured-spacing">
