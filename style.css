@@ -50,10 +50,11 @@ chris@christophertoulee.
 
 /* Featured CSS */
 
-.featured-msg {
-    font-family: "Open+Sans";
+.featured-msg h1 {
+    font-family: "Open Sans" !important;
+    font-weight: 550;
     color: #2B3187;
-    text-align: center;
+    font-size: 32px;
 }
 
 .featured-spacing {

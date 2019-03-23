@@ -20,10 +20,10 @@
 
 <div class="container-fluid">
     <div class="featured">
+        <div class="featured-msg">
+            <h1>Featured Listings</h1>
+        </div>
         <div class="row">
-            <div class="featured-msg">
-                <h1>Featured Listings</h1>
-            </div>
         <div class="featured-spacing">
             <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
         </div>
