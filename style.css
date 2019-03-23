@@ -74,6 +74,14 @@ chris@christophertoulee.
     flex-wrap: nowrap;
 }
 
+#ihf-main-container .mt-10 {
+    display: none;
+}
+
+#ihf-main-container .ihf-grid-result-container {
+    height: 350px;
+}
+
 
 /*DELETE LIST CSS SETTINGS*/
 /*.ihf-listing-search-results {*/
