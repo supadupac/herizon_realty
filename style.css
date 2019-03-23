@@ -69,6 +69,11 @@ chris@christophertoulee.
     justify-content: center;
 }
 
+#ihf-main-container .row {
+    display: flex !important;
+    flex-wrap: nowrap;
+}
+
 
 /*DELETE LIST CSS SETTINGS*/
 /*.ihf-listing-search-results {*/
