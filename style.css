@@ -53,7 +53,8 @@ chris@christophertoulee.
 .featured-msg {
     display: flex;
     justify-content: center;
-    margin-top: 40px
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .featured-msg h1 {
@@ -1062,7 +1063,6 @@ chris@christophertoulee.
 .welcome {
  font-family: "Open+Sans";
  color: #2B3187;
- /*margin-top: 20px;*/
  text-align: center;
 }
 
