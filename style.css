@@ -49,11 +49,20 @@ chris@christophertoulee.
 
 
 /* Featured CSS */
-.red {
+.featured-spacing {
     /*border: 1px solid red;*/
     padding-top: 20px;
     /*height: 300px;*/
 }
+
+#ihf-main-container .mt-60 {
+    display: none;
+}
+
+.ihf-link-back, .ihf-map-icon {
+    display: none;
+}
+
 
 
 
