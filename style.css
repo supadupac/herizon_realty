@@ -49,6 +49,13 @@ chris@christophertoulee.
 
 
 /* Featured CSS */
+
+.featured-msg {
+    font-family: "Open+Sans";
+    color: #2B3187;
+    text-align: center;
+}
+
 .featured-spacing {
     /*border: 1px solid red;*/
     padding-top: 20px;
