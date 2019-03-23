@@ -64,7 +64,9 @@ chris@christophertoulee.
 }
 
 .featured > .row {
-    flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: nowrap !important;
+    justify-content: center;
 }
 
 
