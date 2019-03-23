@@ -19,11 +19,11 @@
 </div>
 
 <div class="container">
-<!--    <div class="featured">-->
-        <div class="row featured">
+    <div class="featured">
+        <div class="row red">
             <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
         </div>
-<!--    </div>-->
+    </div>
 </div>
 
 <?php
