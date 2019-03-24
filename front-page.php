@@ -27,8 +27,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="featured-spacing">
+                <div class="col-lg-8 featured-spacing">
                     <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
+                </div>
+                <div class="col-lg-4">
+                    Lorem Ipsum
                 </div>
             </div>
         </div>
