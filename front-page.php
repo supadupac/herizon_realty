@@ -25,6 +25,8 @@
                 <div class="featured-msg">
                     <h1>Featured Listings</h1><br>
                 </div>
+            </div>
+            <div class="row">
                 <div class="featured-spacing">
                     <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
                 </div>
