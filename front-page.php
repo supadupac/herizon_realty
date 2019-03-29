@@ -25,6 +25,7 @@
                 <div class="col-lg-8 featured-msg">
                     <h1>Featured Listings</h1><br>
                 </div>
+                <div class="col-lg-1"></div>
                 <div class="col-lg-3 latestblogs">
                     <h1>Latest Blogs</h1>
                 </div>
@@ -33,6 +34,7 @@
                 <div class="col-lg-8 featured-spacing">
                     <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
                 </div>
+                <div class="col-lg-1"></div>
                 <div class="col-lg-3">
                     Lorem Ipsum
                 </div>
