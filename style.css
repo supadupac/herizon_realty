@@ -84,6 +84,10 @@ chris@christophertoulee.
     /*height: 300px;*/
 }
 
+#ihf-main-container .col-xs-6 {
+    padding: 2px;
+}
+
 #ihf-main-container .mt-60 {
     display: none;
 }
