@@ -18,20 +18,23 @@
     </div>
 </div>
 
+
 <div class="container-fluid">
     <div class="featured">
         <div class="container">
             <div class="row">
-                <div class="featured-msg">
+                <div class="col-lg-7 featured-msg">
                     <h1>Featured Listings</h1><br>
+                </div>
+                <div class="col-lg-5 latestblogs">
+                    <h1>Latest Blogs</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 featured-spacing">
+                <div class="col-lg-7 featured-spacing">
                     <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3">
+                <div class="col-lg-5">
                     Lorem Ipsum
                 </div>
             </div>
