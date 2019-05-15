@@ -18,30 +18,47 @@
     </div>
 </div>
 
-<div class="container-fluid">
-    <div class="featured">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 featured-msg">
-                    <h1>Featured Listings</h1><br>
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3 latestblogs">
-                    <h1>Latest Blogs</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 featured-spacing">
-                    <?php echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-3">
-                    Lorem Ipsum
-                </div>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 featured-msg">
+            <h1>Featured Listings</h1>
+        </div>
+        <div>
+            <?php echo do_shortcode("[optima_express_featured sortBy='cn' displayType='grid' resultsPerPage='3' header='true' includeMap='false' status='active']"); ?>
         </div>
     </div>
 </div>
+
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="col-lg-8 featured-msg">-->
+<!--            --><?php //echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
+<!--        </div>-->
+<!--        <div class="col-lg-3 latestblogs">-->
+<!--            Latest Blogs-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container-fluid">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-8 featured-msg">-->
+<!--                <h1>Featured Listings</h1><br />-->
+<!--            </div>-->
+<!--            <div class="col-lg-3 latestblogs">-->
+<!--                <h1>Latest Blogs</h1>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-8 featured-spacing">-->
+<!--                --><?php //echo do_shortcode("[optima_express_featured displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
+<!--            </div>-->
+<!--            <div class="col-lg-3 latestblogs">-->
+<!--                Lorem Ipsum-->
+<!--            </div>-->
+<!--        </div>-->
+<!--</div>-->
 
 <?php
 $sticky = get_option( 'sticky_posts' );

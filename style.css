@@ -64,19 +64,20 @@ chris@christophertoulee.
     font-size: 32px;
 }
 
-.latestblogs {
-    display: flex;
-    justify-content: start;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
+/*.latestblogs {*/
+/*    display: flex;*/
+/*    justify-content: start;*/
+/*    margin-top: 20px;*/
+/*    margin-bottom: 10px;*/
+/*    margin-left: 10px;*/
+/*}*/
 
-.latestblogs h1 {
-    font-family: "Open Sans" !important;
-    font-weight: 550;
-    color: #2B3187;
-    font-size: 32px;
-}
+/*.latestblogs h1 {*/
+/*    font-family: "Open Sans" !important;*/
+/*    font-weight: 550;*/
+/*    color: #2B3187;*/
+/*    font-size: 32px;*/
+/*}*/
 
 .featured-spacing {
     /*border: 1px solid red;*/
