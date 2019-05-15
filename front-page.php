@@ -24,7 +24,7 @@
             <h1>Featured Listings</h1>
         </div>
         <div>
-            <?php echo do_shortcode("[optima_express_featured sortBy='cn' displayType='grid' resultsPerPage='3' header='true' includeMap='false' status='active']"); ?>
+            <?php echo do_shortcode("[optima_express_featured sortBy='cn' displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
         </div>
     </div>
 </div>
