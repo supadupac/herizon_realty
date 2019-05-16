@@ -481,6 +481,10 @@ chris@christophertoulee.
    .featured {
        display: none;
    }
+
+   .featured-msg {
+       display: none;
+   }
  }
 
  @media only screen and (max-width: 991px){
