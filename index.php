@@ -1,11 +1,8 @@
 <?php get_header(); ?>
 
 <div class="container">
-<!--    <div class="right">-->
-    <h1 class="blog__welcome right">Welcome to our blog</h1>
-    <h3 class="blog__subtitle right">Keep up with our latest news</h3>
-<!--    </div>-->
-<!--    <hr />-->
+    <h1 class="blog__welcome right blog__welcome_respond">Welcome to our blog</h1>
+    <h3 class="blog__subtitle right blog__subtitle_respond">Keep up with our latest news</h3>
 
 
     <div class="blog__posts">

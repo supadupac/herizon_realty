@@ -510,6 +510,44 @@ chris@christophertoulee.
    }
  }
 
+@media only screen and (min-width: 992px) {
+    blog__welcome_respond {
+        display: none;
+    }
+
+    blog__subtitle_respond {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .blog__welcome {
+        display: none;
+    }
+
+    .blog__subtitle {
+        display: none;
+    }
+
+    .blog__welcome_respond {
+        color: #717171;
+        font-family: "Open Sans";
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 75px !important;
+        margin-left: 50px;
+    }
+
+    .blog__subtitle_respond {
+        color: #717171;
+        font-family: "Open Sans";
+        font-size: 14px;
+        padding-bottom: 20px;
+        /*margin-top: 150px;*/
+        /*margin-left: 53px;*/
+    }
+}
+
  @media only screen and (max-width: 991px){
    #footer__links__connected-hide {
      display: none;
@@ -1215,8 +1253,8 @@ chris@christophertoulee.
     font-family: "Open Sans";
     font-size: 22px;
     font-weight: 700;
-    /*margin-top: 15px;*/
-    /*margin-left: 50px;*/
+    margin-top: 15px;
+    margin-left: 50px;
 }
 
 .blog__subtitle {
