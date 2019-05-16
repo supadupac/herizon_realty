@@ -97,11 +97,17 @@ chris@christophertoulee.
     display: none;
 }
 
-.featured > .row {
+.featured {
     display: flex;
     flex-wrap: nowrap !important;
     justify-content: center;
 }
+
+/*.featured > .row {*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap !important;*/
+/*    justify-content: center;*/
+/*}*/
 
 #ihf-main-container .row {
     display: flex !important;
