@@ -139,7 +139,7 @@ chris@christophertoulee.
  /* Body */
 
  .hero_background {
-   background-image: url("http://herizon.christophertoulee.com/wp-content/uploads/hero_img.jpg");
+   background-image: url("/wp-content/uploads/hero_img.jpg");
    background-repeat: no-repeat;
    height: 450px;
    background-size: cover;

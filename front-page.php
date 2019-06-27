@@ -100,21 +100,21 @@ if ( isset($sticky[0]) ) {
     <div class="container welcome-links">
         <div class="row text-center">
             <div class="col-lg-4">
-                <img src="http://herizon.christophertoulee.com//wp-content/uploads/2018/09/herizon_sell.jpg" class="img-fluid">
+                <img src="/wp-content/uploads/2018/09/herizon_sell.jpg" class="img-fluid">
                 <br>
                 <br>
                 <h1>Buy</h1>
                 <p>We love to help buyers find a home that they can be happy in. We always do our best to serve all of your real estate needs.</p>
             </div>
             <div class="col-lg-4">
-                <img src="http://herizon.christophertoulee.com//wp-content/uploads/2018/09/key_buyers.jpg" class="img-fluid">
+                <img src="/wp-content/uploads/2018/09/key_buyers.jpg" class="img-fluid">
                 <br>
                 <br>
                 <h1>Sell</h1>
                 <p>We enjoy selling homes and helping sellers prepare, market, and sell their home.</p>
             </div>
             <div class="col-lg-4">
-                <img src="http://herizon.christophertoulee.com//wp-content/uploads/2018/09/home001.jpg" class="img-fluid">
+                <img src="/wp-content/uploads/2018/09/home001.jpg" class="img-fluid">
                 <br>
                 <br>
                 <h1>Properties</h1>
@@ -126,7 +126,7 @@ if ( isset($sticky[0]) ) {
     <div class="container">
         <div class="row agents">
             <div class="col-xl-5">
-                <img src="http://herizon.christophertoulee.com/wp-content/uploads/2019/01/herizon_agents.jpg" class="img-fluid">
+                <img src="/wp-content/uploads/2019/01/herizon_agents.jpg" class="img-fluid">
             </div>
             <div class="col-xl-7 text-center">
                 <h1>What our agents can do for you</h1>
