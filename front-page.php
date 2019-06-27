@@ -164,7 +164,7 @@ if ( isset($sticky[0]) ) {
                         </div><br>
                         <div class="form-row">
                             <div class="col">
-                                <input type="email" cldass="form-control" id="emailInput" name="emailInput" aria-describedby="emailInput" placeholder="Enter email" required="required" data-error="Email is required">
+                                <input type="email" class="form-control" id="emailInput" name="emailInput" aria-describedby="emailInput" placeholder="Enter email" required="required" data-error="Email is required">
                             </div>
                         </div>
                         <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
