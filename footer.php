@@ -36,6 +36,9 @@
             <h5 class="footer__link__headers">Resources</h5>
             <ul class="list-unstyled">
               <li>
+                <a href="/wp-admin/">Agents Log In</a>
+              </li>
+              <li>
                 <a href="/properties/">Find Properties</a>
               </li>
               <li>
@@ -45,11 +48,11 @@
                 <a href="/privacy/">Privacy</a>
               </li>
               <li>
-                <a href="/wp-admin/">Log In</a>
-              </li>
-              <li>
                 <a href="/email/">E-mail</a>
               </li>
+                <li>
+                    <a href="/property-organizer-login/">Log In</a>
+                </li>
             </ul>
           </div>
 
@@ -66,6 +69,9 @@
             <!-- Links -->
             <h5 class="footer__link__headers">Resources</h5>
             <ul class="list-unstyled">
+                <li>
+                    <a href="/wp-admin/">Agents Log In</a>
+                </li>
               <li>
                 <a id="responsive-footer-menu-button" href="#sidr-main">Find Properties</a>
               </li>
@@ -76,11 +82,11 @@
                 <a href="/privacy/">Privacy</a>
               </li>
               <li>
-                <a href="/wp-admin/">Log In</a>
-              </li>
-              <li>
                 <a href="/email/">E-mail</a>
               </li>
+                <li>
+                    <a href="/property-organizer-login/">Log In</a>
+                </li>
             </ul>
           </div>
 

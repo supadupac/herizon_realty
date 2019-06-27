@@ -498,6 +498,10 @@ chris@christophertoulee.
    }
  }
 
+.hide-menu-item {
+    display:none;
+}
+
  @media only screen and (max-width: 991px){
    #footer__stay__connected-hide {
      display: none;

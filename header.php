@@ -46,6 +46,7 @@
                     <li class="nav__item"><a href="/agents/">Agents</a></li>
                     <li class="nav__item"><a href="/blog/ ">Blogs</a></li>
                     <li class="nav__item"><a href="/resources/">Resources</a></li>
+                    <li class="nav__item hide-menu-item"><a href="/property-organizer-login/">Log In</a></li>
                 </ul>
             </nav>
 
