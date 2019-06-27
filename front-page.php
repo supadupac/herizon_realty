@@ -149,7 +149,7 @@ if ( isset($sticky[0]) ) {
                 <h1>Get in touch</h1>
                 <p>Have any questions or just want to get in touch with us?</p>
 
-                <form id="contact-form" method="post" action="contact/email_handler.php" role="form">
+                <form id="contact-form" method="post" action="/contact/email_handler.php" role="form">
 
                     <div class="messages"></div>
 
