@@ -135,6 +135,15 @@ chris@christophertoulee.
     display: none;
 }
 
+.ihf-grid-result-basic-info-item1 {
+    border-right: 0px solid #ccc !important;
+    padding: 0 3px !important;
+}
+
+.ihf-grid-result-basic-info-item2 {
+    border-right: 0px solid #ccc !important;
+    padding: 0 3px !important;
+}
 
  /* Body */
 
