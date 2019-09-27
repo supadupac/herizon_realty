@@ -18,18 +18,18 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 featured-msg">
-            <h1>Featured Listings</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12 featured">
-            <?php echo do_shortcode("[optima_express_featured sortBy='cn' displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
-        </div>
-    </div>
-</div>
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="col-lg-12 featured-msg">-->
+<!--            <h1>Featured Listings</h1>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--        <div class="col-lg-12 featured">-->
+<!--            --><?php //echo do_shortcode("[optima_express_featured sortBy='cn' displayType='grid' resultsPerPage='4' header='false' includeMap='false' status='active']"); ?>
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <!--<div class="container">-->
 <!--    <div class="row">-->
